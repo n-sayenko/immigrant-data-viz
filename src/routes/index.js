@@ -25,7 +25,7 @@ const importState = (nextState, cb) => {
 const routes = (
   <Route path="/" component={App}>
     <IndexRoute getComponent={importHome} />
-    <Route path="state" getComponent={importState} />
+    <Route path="/:stateName" getComponent={importState} />
   </Route>
 );
 
