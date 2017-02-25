@@ -1,0 +1,18 @@
+City
+% of Workers Foreign Born
+Miami
+60%
+Silicon Valley
+47%
+New York City
+46%
+San Jose
+44%
+Los Angles
+42%
+San Francisco
+37%
+San Diego
+29%
+Chicago
+26%
