@@ -7,16 +7,15 @@ svg {
 }
 
 .states {
-  	fill: black;
-
   	&:hover {
-  		fill: red;
+  		transform: scale(1.2);
+  		transform-origin: center;
   	}
 }
 
 .stateBorders {
 	fill: none;
-	stroke: white;
+	//stroke: white;
 	stroke-width: 2px;
 	stroke-linejoin: round;
 	stroke-linecap: round;

@@ -1,5 +1,12 @@
 {
-{Alabama:{Population:152789,ShareOfPop:3.2,Taxes:972.3M,SpendingPower:2.7B}},
+{
+	Alabama: {
+		Population:152789,
+		ShareOfPop:3.2,
+		Taxes:972.3M,
+		SpendingPower:2.7B
+	}
+},
 {Alaska:{Population:55724,ShareOfPop:7.6,Taxes:436.4M,SpendingPower:1.4B}},
 {Arizona:{Population:921641,ShareOfPop:13.7,Taxes:5.4B,SpendingPower:16B}},
 {Arkansas:{Population:143392,ShareOfPop:4.8,Taxes:905.4M,SpendingPower:2.3B}},
