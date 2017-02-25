@@ -6,7 +6,6 @@ import styles from './styles.scss';
 function App({ children }) {
   return (
     <div>
-      <i className={styles.logo} />
       <ul className={styles.nav}>
         <li className={styles.navItem}>
           <Link className={styles.link} to="/">Home</Link>
