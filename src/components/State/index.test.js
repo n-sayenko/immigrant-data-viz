@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { shallow } from 'enzyme';
-import Tools from './';
+import State from './';
 
 it('Test example', () => {
-  const wrapper = shallow(<Tools />);
+  const wrapper = shallow(<State />);
   expect(wrapper.is('ul')).toBeTruthy();
 });

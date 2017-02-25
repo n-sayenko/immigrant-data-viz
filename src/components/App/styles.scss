@@ -6,31 +6,18 @@
 }
 
 .nav {
-  width: $content-width;
+  width: 500px;
   margin: 0 auto;
-  padding: $padding;
   text-align: center;
 }
 
-.content {
-  width: $content-width;
-  margin: $padding auto;
-}
 
 .navItem {
   display: inline-block;
+  padding: 10px;
 }
 
 .link {
-  padding: $padding;
   color: #00a68f;
   font-size: 18px;
-}
-
-.logo {
-  display: block;
-  width: 252px;
-  height: 252px;
-  margin: $padding auto;
-  background: url('../../images/icon-kytLogo_large-252x252.svg');
 }

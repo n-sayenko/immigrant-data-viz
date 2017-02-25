@@ -17,7 +17,9 @@ export default vo => `
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     ${vo.cssBundle ? '<link rel="stylesheet" type="text/css" href="' + vo.cssBundle + '">' : ''}
 
-    <title>Universal React Starter Kyt</title>
+    <title>America without Immigrants</title>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
   </head>
 
   <body>

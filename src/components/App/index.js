@@ -12,7 +12,7 @@ function App({ children }) {
           <Link className={styles.link} to="/">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <Link className={styles.link} to="/tools">Tools</Link>
+          <Link className={styles.link} to="/state">States</Link>
         </li>
       </ul>
       <div className={styles.content}>
