@@ -22,18 +22,20 @@ class Home extends Component {
           .selectAll("path")
           .data(topojson.feature(us, us.objects.states).features)
           .enter().append("path")
+            .attr("class", `${styles.states}`)
             .attr("d", path);
 
       svg.append("path")
-          .attr("class", "state-borders")
+          .attr("class", `${styles.stateBorders}`)
           .attr("d", path(topojson.mesh(us, us.objects.states, (a, b) => { return a !== b; })));
     });
   }
 
     render() {
       return (
-        <section className="svg-holder">
-          <svg></svg>
+        <section className={styles.svgHolder}>
+          <svg className={styles.svg}>
+          </svg>
         </section>
       )
     };
