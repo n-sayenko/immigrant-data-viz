@@ -1,0 +1,11 @@
+{
+  "name": "immigrant-data-viz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/n-sayenko/immigrant-data-viz.git",
+  "author": "Nicole <nicole.baram@nytimes.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kyt": "^0.4.0"
+  }
+}
