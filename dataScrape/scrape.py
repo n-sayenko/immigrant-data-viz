@@ -23,7 +23,10 @@ def main():
                 new_line += "\"" + str(values[i]) + "\""
                 if (i != 5):
                     new_line += ","
-            new_line += "}},\n"
+            if (currentLine[:7] == "Wyoming"):
+                new_line += "}}\n"
+            else:
+                new_line += "}},\n"
         new_text += new_line
         countRecords += 1
     new_text += "]"
@@ -31,5 +34,5 @@ def main():
 
     s.close()
     t.close()
-    print("File written. %d records. ", countRecords)
+    print("File written. %d records. " % countRecords)
 main()
